@@ -1,0 +1,48 @@
+
+fieldset{
+margin: 6em 25em;
+padding: 1em 2em;
+border: solid 1px #ddb53d;
+border-radius: 6px;
+width: 25em;
+background-color: #b8cad6;
+font-size: large;
+font-weight: bold;
+-webkit-box-shadow: 11px 3px 12px 6px #000000; 
+box-shadow: 11px 3px 12px 6px #000000;
+opacity: 90%;
+}
+
+label{
+    margin-top: 1em;
+    display: block;
+}
+label:first-of-type {
+    margin-top: 0;
+}
+input{
+    display: block;
+    border-radius: 4px;
+}
+
+body{
+    background-image: url(beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+input[type = "submit"]{
+        margin: 1em 0;
+        color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+        .myButton:hover {
+        background: #1C6EA4; }
+        .myButton:active {
+        background: #144E75; 
+    }
+
+    img
+{
+    opacity: 85%;
+    margin: 1em 1em;
+    border-radius: 6px;
+}
